@@ -1,0 +1,281 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.navbar_phone {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-weight: 900;
+}
+
+.main_hello {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  background: url("../img/backPic.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.up_header {
+  background-color: #f54e1b;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.navbar_bg {
+  background-color: black;
+}
+
+.navbar_bg .nav-item a {
+  color: white !important;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  border: 1px solid orange;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+  margin-left: 15px;
+}
+
+.navbar_bg .nav-item a:hover {
+  color: orange !important;
+}
+
+.line_main {
+  margin-top: 35px;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+}
+
+.title {
+  margin-top: 35px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-tabs .nav-link {
+  color: #495057;
+  background-color: #fff;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: orange;
+}
+
+.tab-content .tab-pane {
+  border: 2px solid #fb3a50;
+  background-color: white;
+  padding: 20px;
+}
+
+.tab-content .tab-pane:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(white), to(#f1ebe1));
+  background-image: linear-gradient(to left, white, #f1ebe1);
+}
+
+.tab_title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.input_main {
+  width: 90%;
+  height: 38px;
+  border: none;
+  color: #2F2F2F;
+  outline: none;
+}
+
+.input_main_span {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #C7C7C7;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.input_main_span:hover {
+  border-color: orange;
+}
+
+.input_main_span_name:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f007";
+}
+
+.input_main_span_phone:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f3cd";
+}
+
+.input_main_span_car:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f1b9";
+}
+
+.input_main_span_tag:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f292";
+}
+
+.input_main_span_post:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f1fa";
+}
+
+.input_main_span_euro:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f153";
+}
+
+.submit_main {
+  margin-top: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #fd2222;
+  color: white;
+  border-radius: 100px;
+  line-height: 50px;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  float: right;
+}
+
+.submit_main:hover {
+  background-color: orange;
+}
+
+.faeuro {
+  margin-right: 10px;
+}
+
+.promo {
+  padding: 40px 0;
+  background-color: black;
+  border-bottom: 2px solid orange;
+}
+
+.promo_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo_descr {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+.info {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.info_descr {
+  margin-top: 60px;
+  color: white;
+  font-weight: normal;
+}
+
+.info_descr span {
+  color: orange;
+  font-weight: 700;
+}
+
+.info_title {
+  font-size: 18px;
+  color: orange;
+}
+
+.info_line {
+  margin-top: 10px;
+  height: 2px;
+  background-color: orange;
+}
+
+.info_ol {
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(#676733));
+  background-image: linear-gradient(to right, orange, #676733);
+  line-height: 1.7;
+  border-radius: 20px;
+}
+
+.creddits {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(orange), to(black));
+  background-image: linear-gradient(orange, black);
+  padding: 15px 0;
+}
+
+.creddits .descr {
+  color: white;
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 13px;
+}
+
+.creddits .descr_1 {
+  margin-top: 30px;
+}
+
+.creddits .descr h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.creddits .descr a {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .info_title_margin {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info_title_margin {
+    margin-top: 50px;
+  }
+  .creddits_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tabs {
+    margin-top: 50px;
+  }
+  .main_hello {
+    padding-top: 150px;
+  }
+  .creddits_img {
+    width: auto;
+  }
+  .creddits .descr {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
